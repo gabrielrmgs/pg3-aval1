@@ -3,47 +3,138 @@
     padding: 0;
 }
 
-body {
-    background-color: lightblue;
+.mooli-regular {
+    font-family: "Mooli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#divbg{
-    background-image: url("assets/cs2logo.jpg");
-    filter: grayscale(60%);
-    background-size: contain;
-    width: 100%;
-    height: 360px;
-    margin-top: 60px;
+body,
+main {
+    background-color: antiquewhite;
+    font-family: 'Mooli';
+}
+
+header {
+    box-shadow: 2px 2px 2px lightgray;
+    z-index: 99;
+    border: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    color: lightcoral;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 21px 15px;
+}
+
+header a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: lightskyblue;
     align-items: center;
     justify-content: center;
     display: flex;
-    box-shadow: 0px 3px 9px lightslategrey;
+    height: 60px;
 
 }
 
-#divbg h1:hover{
+ul li {
+    float: left;
+}
+
+#divbg {
+    background-image: url("assets/7165738.jpg");
+    filter: grayscale(60%);
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 2px 2px lightblue;
+
+}
+
+#divbg h1:hover {
     text-shadow: 60px;
     background: lightcoral;
     border-radius: 20px;
     padding: 6px;
 }
 
-main div div {
+.sessao-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.sessao-itens p:hover {
+    font-weight: bold;
+    background-color: aqua;
+}
+
+main div div div {
     border: 2px;
     border-style: solid;
     border-color: lightcoral;
     box-shadow: 2px 2px 2px lightslategray;
     width: 240px;
-    height: 200px;
+    height: 201px;
     margin: 24px;
+    transition: all 240ms linear;
 }
 
-main div div:hover {
-    border: 2px;
-    border-style: solid;
-    border-color: white;
+main div div div:hover {
+    border-color: lightblue;
     scale: 110%;
     box-shadow: 4px 4px 4px lightslategray;
-    transition-duration: 240ms;
 
+}
+
+div div div img {
+    width: 240px;
+    height: 201px;
+
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    margin-top: 24px;
+    flex-direction: column;
+}
+
+footer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+footer span p {
+    font-family: 'Mooli';
+    font-size: small;
+    margin: 6px;
+}
+
+footer span a {
+    margin-right: 6px;
+}
+
+footer span a:hover {
+    scale: 1.5;
 }
