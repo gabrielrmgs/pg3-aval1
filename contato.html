@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artesanato</title>
-    <link rel="stylesheet" href="galeria.css" />
+    <link rel="stylesheet" href="styles/contato.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,21 +28,35 @@
         </ul>
     </header>
     <main style="display: flex; align-items: center; justify-content: center;">
-        <form style="width: 360px; margin-top: 60px;">
-            <fieldset>
-                <legend>Contato</legend>
-                <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                    <label>Nome</label>
-                    <input type="text" placeholder="Seu nome" />
-                    <label>E-mail</label>
-                    <input type="email" placeholder="Seu melhor E-mail" />
-                    <label>Telefone</label>
-                    <input type="text" pattern="^\([1-9]{2}\) (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}$" />
-                    <label>Mensagem</label>
-                    <textarea style="height: 120px;">  </textarea>
-                </div>
-            </fieldset>
-        </form>
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 150px;">
+            <div style="margin-top: 240px;">
+                <h3 style="margin-bottom: 12px;">Central de atendimento ao cliente</h3>
+                <p>
+                    <i class='bx bx-phone' style="margin-right: 9px;"></i>0800 333 9999
+                </p>
+                <p>
+                    <i class='bx bx-phone' style="margin-right: 9px;"></i>33 3333-3333
+                </p>
+                <p>
+                    <i class='bx bxl-whatsapp' style="margin-right: 9px;"></i> 99 99999-9999
+                </p>
+            </div>
+            <form style="width: 360px; margin-top: 120px;">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                        <label>Nome</label>
+                        <input type="text" placeholder="Seu nome" />
+                        <label>E-mail</label>
+                        <input type="email" placeholder="Seu melhor E-mail" />
+                        <label>Telefone</label>
+                        <input type="text" pattern="^\([1-9]{2}\) (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}$" />
+                        <label>Mensagem</label>
+                        <textarea style="height: 120px;">  </textarea>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </main>
 
     <footer>
