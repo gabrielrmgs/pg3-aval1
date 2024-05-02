@@ -5,7 +5,7 @@
 
 body,
 main {
-    background-color: antiquewhite;
+    background-color: #ab9597;
     font-family: 'Mooli';
 }
 
@@ -17,7 +17,7 @@ header {
     border-left: 0;
     border-right: 0;
     border-style: solid;
-    border-color: aqua;
+    border-color: #7a6248;
     position: fixed;
     width: 100%;
 }
@@ -38,7 +38,7 @@ header a:hover {
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: lightskyblue;
+    background-color: #968f4b;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -55,10 +55,16 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
+    background-color: #968f4b;
     margin-top: 24px;
     flex-direction: column;
     margin-bottom: 0;
+    border-bottom: 0;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #7a6248;
 }
 
 footer span {

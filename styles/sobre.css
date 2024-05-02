@@ -8,19 +8,19 @@ main {
     /* background-image: url("../assets/loja2edited.jpeg");
     background-size: cover;
     background-repeat: no-repeat; */
-    background-color: antiquewhite;
+    background-color: #ab9597;
     font-family: 'Mooli';
 }
 
 header {
-    box-shadow: 2px 2px 2px lightgray;
+    box-shadow: 0px 2px 2px #7a6248;
     z-index: 99;
     border-bottom: 3px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
     border-style: solid;
-    border-color: aqua;
+    border-color: #7a6248;
     position: fixed;
     width: 100%;
 }
@@ -31,17 +31,18 @@ header a {
     display: block;
     text-align: center;
     padding: 21px 15px;
+    transition: all 210ms linear;
 }
 
 header a:hover {
-    background-color: aqua;
-    color: black;
+    background-color: #7a6248;
+    color: #fffbf0;
 }
 
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: lightskyblue;
+    background-color: #968f4b;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -58,10 +59,16 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
+    background-color: #968f4b;
     margin-top: 24px;
     flex-direction: column;
     margin-bottom: 0;
+    border-top: 2px;
+    border-style: solid;
+    border-color: #7a6248;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
 }
 
 footer span {
