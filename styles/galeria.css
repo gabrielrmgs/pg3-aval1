@@ -146,3 +146,52 @@ footer span a {
 footer span a:hover {
     scale: 1.5;
 }
+
+#galeriaTotal {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+@media screen and (max-width: 1430px) {
+    #galeriaTotal {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    #galeriaTotal {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #galeriaTotal {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    header a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: small;
+        padding: 21px 15px;
+    }
+}
+@media screen and (max-width: 360px) {
+    header a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: x-small;
+        font-weight: 600;
+        padding: 21px 15px;
+    }
+}

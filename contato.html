@@ -28,7 +28,7 @@
             </li>
         </ul>
     </header>
-    <main style="display: flex; align-items: center; justify-content: center;">
+    <main style="display: flex; align-items: center; justify-content: center; height: auto;">
         <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 150px;">
             <div style="margin-top: 360px;">
                 <h3 style="margin-bottom: 12px;">Central de atendimento ao cliente</h3>
@@ -42,16 +42,18 @@
                     <i class='bx bxl-whatsapp' style="margin-right: 9px;"></i> 99 99999-9999
                 </p>
             </div>
-            <form style="width: 360px; margin-top: 270px;">
+            <form style="width: 360px; margin-top: 270px; margin-bottom: 120px;">
                 <fieldset>
                     <legend>Contato</legend>
-                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;">
+                    <div
+                        style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;">
                         <label>Nome</label>
                         <input type="text" placeholder="Seu nome" required />
                         <label>E-mail</label>
                         <input type="email" placeholder="Seu melhor E-mail" />
                         <label>Telefone</label>
-                        <input type="tel" pattern="^\([1-9]{2}\) (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}$" required placeholder="(99) 9 9999-9999" />
+                        <input type="tel" pattern="^\([1-9]{2}\) (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}$" required
+                            placeholder="(99) 9 9999-9999" />
                         <label>Mensagem</label>
                         <textarea style="height: 120px; width: 240px;" placeholder="Digite sua mensagem">  </textarea>
                         <button type="submit" style="margin-top: 12px; margin-bottom: 12px;">Enviar!</button>
@@ -61,7 +63,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer style="margin-top: 120px;">
         <span>
             <p>Site criado por Gabriel Remigio de Sá</p>
         </span>
